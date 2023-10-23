@@ -1,0 +1,11 @@
+ize.c:23:3: error: statement with no effect [-Werror=unused-value]
+   23 |   // i now contains curr_i
+      |   ^
+get_size.c:23:4: error: expected ‘;’ before ‘now’
+   23 |   // i now contains curr_i
+      |    ^~~~
+      |    ;
+get_size.c:26:1: error: control reaches end of non-void function [-Werror=return-type]
+   26 | }
+      | ^
+cc1: all warnings being treated as error
